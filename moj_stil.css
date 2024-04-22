@@ -1,7 +1,9 @@
 body
 {
     background-image: url("racunalo.jpg");
+    /*ovo mi služi za poravnanje slike gore-desno i da se ne ponavlja*/
     background-position-y: top;
     background-position-x: right;
     background-repeat: no-repeat;
+    /*background-color ovo mi služi za promjenu boje pozadine*/
 }
