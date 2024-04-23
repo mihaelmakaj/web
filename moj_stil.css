@@ -6,6 +6,7 @@ body
     background-position-x: right;
     background-repeat: no-repeat;
     /*background-color ovo mi služi za promjenu boje pozadine*/
+    text-align: justify;
 }
 p
 { 
@@ -18,4 +19,14 @@ p.citat
     font-size: 11px;
     border: 1px solid #000;
     background-color: #ffffcc;
+}
+p.drugi
+{
+    color: "firebrick";
+    text-align: center;
+    text-decoration: underline;
+}
+p.treci
+{
+    text-align: right;
 }
