@@ -74,9 +74,6 @@ ul ul li a, ul ul li a:visited{
 }
 ul, li{
     list-style: none;
-    color: blue;
-    font-weight: bold; 
-    margin: 0px;
-    padding: 0px;
-    border-style: solid;
+    margin: 0px
+    padding: 0px
 }
