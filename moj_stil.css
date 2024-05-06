@@ -58,24 +58,27 @@ ul li a, ul li a:visited
     padding: 2px 0px 2px 5px;
     width: 100px;
     border-left: 6px;
+    border-left-color: blue;
+    font-weight: bold;
+    border-left-style: solid;
 }
 ul ul li a, ul ul li a:visited
-{
-   display: block;
-   text-decoration: none;
-   margin: 1px 1px 1px 15px;
-   padding: 2px 0px 2px 5px;
-   width: 108px;
-   border-left: 4px;
+{ 
+    display: block;
+    text-decoration: none;
+    margin: 1px 1px 1px 15px;
+    padding: 2px 0px 2px 5px;
+    width: 108px;
+    border-left: 4px;
+    border-left-color: blue;
+    font-weight: bold;
+    border-left-style: solid;
 }
 ul, li
 {
     list-style: none;
-    color: blue;
-    font-weight: bold; 
     margin: 0px;
     padding: 0px;
-    border-style: solid;
 }
 ul li a:hover
 {
