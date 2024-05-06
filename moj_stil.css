@@ -52,6 +52,7 @@ img.desno
 }
 ul li a, ul li a:visited{
     display:block;
+    font-color:blue;
     text-decoration: none;
     margin: 1px;
     padding: 2px 0px 2px 5px;
@@ -63,6 +64,7 @@ ul li a, ul li a:visited{
 }
 ul ul li a, ul ul li a:visited{
     display: block;
+    font-color:blue;
     margin: 1px 1px 1px 15px;
     text-decoration: none;
     padding: 2px 0px 2px 5px;
