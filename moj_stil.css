@@ -50,40 +50,44 @@ img.desno
 {
     float:right;
 }
-ul li a, ul li a:visited{
+ul li a, ul li a:visited
+{
     display:block;
-    font-color:blue;
     text-decoration: none;
     margin: 1px;
     padding: 2px 0px 2px 5px;
     width: 100px;
     border-left: 6px;
-    border-left-color: blue;
-    font-weight: bold;
-    border-left-style: solid;
 }
-ul ul li a, ul ul li a:visited{
-    display: block;
-    font-color:blue;
-    margin: 1px 1px 1px 15px;
-    text-decoration: none;
-    padding: 2px 0px 2px 5px;
-    width: 108px;
-    border-left: 4px;
-    border-left-color: blue;
-    font-weight: bold;
-    border-left-style: solid;
+ul ul li a, ul ul li a:visited
+{
+   display: block;
+   text-decoration: none;
+   margin: 1px 1px 1px 15px;
+   padding: 2px 0px 2px 5px;
+   width: 108px;
+   border-left: 4px;
 }
-ul, li{
+ul, li
+{
     list-style: none;
-    margin: 0px
-    padding: 0px
+    color: blue;
+    font-weight: bold; 
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
 }
-ul li a:hover{
+ul li a:hover
+{
     text-decoration: none;
     border-left-color: #ccf;
+    background-color: aqua;
+    border-color: black;
 }
-ul ul li a:hover{
+ul ul li a:hover
+{
     text-decoration: none;
     border-left-color: #ccf;
+    background-color: aqua;
+    border-color: black;
 }
